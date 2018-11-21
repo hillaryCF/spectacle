@@ -1,0 +1,24 @@
+// menue
+$grey: #373c3f;
+
+// slider1
+$blue:#15afc2;
+$blueemail:#6fc1cf;
+
+// slider2
+$black:#27212c;
+$pink:#bc3183;
+$purpleletter:#9686a4;
+
+// slider3
+$purple:#5b0fa1;
+
+// footer
+$footergrey:#ebebeb;
+$tittleblue:#088ca5;
+
+@mixin secundTittle ($color, $top){
+    padding-top: $top;
+    text-align: center;
+    color:$color;
+}
