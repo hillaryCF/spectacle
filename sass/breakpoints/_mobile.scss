@@ -1,0 +1,115 @@
+@media (max-width:$breakpoint-sm){
+    body{
+        margin: 0;
+        font-family: 'Titillium Web', sans-serif;
+    }
+    .container{
+        background-color: $grey;
+        margin: 0 auto;
+    }
+    .clearfix::after{
+        display: block;
+        content: "";
+        clear: both;
+    }
+    .menue{
+        display: none;
+    }
+    .logomenue{
+        float: right;
+        max-width: 10%;
+        background-color: black;
+        padding: 10px;
+
+    }
+    .text{
+        padding-top: 12px;
+        p{
+            margin: 0;
+            color: white;
+            margin-left: 12px;
+        }
+    }
+    .container2{
+        background: linear-gradient(to bottom right, $turquesa, $tur);
+        padding-bottom: 64px;
+    }
+    .wrapper{
+        h1{
+        margin: 0;
+        padding-top: 56px;
+        padding-left: 24px;
+        font-size: 1.5em;
+        color: white;
+        margin-bottom: 13px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            margin-left: 23px;
+        }
+    }
+    .wrapper3{
+        background-color: $black;
+        padding: 35px;
+    }
+    .texto{
+        margin: 0;
+        color: $purpleletter;
+        font-size: 13px;
+    }
+    .flecha{
+        background-color: blueviolet;
+        padding: 35px;
+        width: 20px;
+        float:right;
+    }
+    #icono{
+        background-color: $pink;
+        background-color: #bc3183;
+        max-width: 5%;
+        padding: 36.5px;
+        padding-left: 15%;
+        padding-right: 15%;
+        float: right;
+        margin-top: -111px;
+    }
+    .negro{
+        background-color: $black;
+        padding: 10.5%;
+        p{
+            color: $purpleletter;
+            font-size: 11px;
+            margin-left: -24px;
+        }
+    }
+    #galeria1{
+        @include image ($sizeW);
+    }
+    #galeria2{
+        @include image ($sizeB);
+    }
+    #iconito{
+        max-width: 10%;
+        padding-top: 118px;
+        padding-bottom: 125px;
+    }
+    #cuadroMorado{
+        background-color: $purple;
+        margin-top: -12px;
+        text-align: center;
+        padding-left: 120px;
+    }
+    #link{
+        padding-top: 20px;
+    }
+    .container4{
+        background-color: $grey;
+    }
+    .text{
+        @include text ($tittleblue);
+    }
+    .textfooter{
+        @include text ($greyletter);
+    }
+}

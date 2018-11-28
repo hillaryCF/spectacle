@@ -1,0 +1,39 @@
+// breackpoints
+$breakpoint-xs: 0px;
+$breakpoint-sm: 320px;
+
+
+
+// menue
+$grey: #373c3f;
+$turquesa:#17b2c4;
+$tur:#078ba4;
+// slider1
+$blue:#18b3c6;
+$blueemail:#6fc1cf;
+
+// slider2
+$black:#27212c;
+$pink:#bc3183;
+$purpleletter:#9686a4;
+
+// slider3
+$purple:#5b0fa1;
+
+// footer
+$footergrey:#ebebeb;
+$tittleblue:#088ca5;
+$greyletter:#515151;
+
+$sizeW:-12px;
+$sizeB:-4px;
+
+@mixin image ($size){
+    margin-top: $size;
+    max-width: 100%;
+}
+@mixin text($color) {
+    margin: 0;
+    margin-left: 38px;
+    color: $color;
+}
