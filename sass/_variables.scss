@@ -1,6 +1,7 @@
 // breackpoints
 $breakpoint-xs: 0px;
 $breakpoint-sm: 320px;
+$breakpoint-m:640px;
 
 
 
@@ -31,9 +32,12 @@ $sizeB:-4px;
 @mixin image ($size){
     margin-top: $size;
     max-width: 100%;
+    
 }
 @mixin text($color) {
     margin: 0;
     margin-left: 38px;
     color: $color;
+    margin-right: 38px;
+    font-size: 1rem
 }

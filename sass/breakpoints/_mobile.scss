@@ -1,7 +1,6 @@
-@media (max-width:$breakpoint-sm){
     body{
         margin: 0;
-        font-family: 'Titillium Web', sans-serif;
+        font-family: 'Titillium Web', sans-serif ;
     }
     .container{
         background-color: $grey;
@@ -17,38 +16,35 @@
     }
     .logomenue{
         float: right;
-        max-width: 10%;
+        max-width: 4%;
         background-color: black;
-        padding: 10px;
-
+        padding: 15px;
     }
     .text{
         padding-top: 12px;
         p{
             margin: 0;
             color: white;
-            margin-left: 12px;
+            margin-left: -13px;
         }
     }
     .container2{
         background: linear-gradient(to bottom right, $turquesa, $tur);
-        padding-bottom: 64px;
+        width: 90%;
+        padding: 64px 5%;
     }
-    .wrapper{
-        h1{
+    .wrapper h1{
         margin: 0;
-        padding-top: 56px;
-        padding-left: 24px;
-        font-size: 1.5em;
+        font-size: 1.5rem;
         color: white;
         margin-bottom: 13px;
-        }
-        a{
-            text-decoration: none;
-            color: white;
-            margin-left: 23px;
-        }
     }
+    .wrapper a{
+        text-decoration: none;
+        color: white;
+        
+    }
+    
     .wrapper3{
         background-color: $black;
         padding: 35px;
@@ -64,25 +60,26 @@
         width: 20px;
         float:right;
     }
-    #icono{
+    .icono{
         background-color: $pink;
-        background-color: #bc3183;
-        max-width: 5%;
-        padding: 36.5px;
-        padding-left: 15%;
-        padding-right: 15%;
+        max-width: 3%;
         float: right;
-        margin-top: -111px;
+        margin-top: -141px;
+        padding: 40.5px 9%;
     }
     .negro{
         background-color: $black;
-        padding: 10.5%;
+        padding-bottom: 64px ;
+        padding-top: 64px ;
         p{
             color: $purpleletter;
             font-size: 11px;
-            margin-left: -24px;
+            margin: 0;
+            width: 90%;
+            padding: 0px 5%;
         }
     }
+    
     #galeria1{
         @include image ($sizeW);
     }
@@ -90,7 +87,7 @@
         @include image ($sizeB);
     }
     #iconito{
-        max-width: 10%;
+        max-width: 5%;
         padding-top: 118px;
         padding-bottom: 125px;
     }
@@ -98,13 +95,12 @@
         background-color: $purple;
         margin-top: -12px;
         text-align: center;
-        padding-left: 120px;
     }
     #link{
         padding-top: 20px;
     }
     .container4{
-        background-color: $grey;
+        background-color: $footergrey;
     }
     .text{
         @include text ($tittleblue);
@@ -112,4 +108,11 @@
     .textfooter{
         @include text ($greyletter);
     }
-}
+    .textfooterT{
+        display: none;
+    }
+    .footertext{
+        margin-bottom: 0px;
+        padding-bottom: 80px;
+        margin-top: 35px;
+    }
