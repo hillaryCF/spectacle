@@ -1,6 +1,28 @@
-@media (max-width: $breakpoint-m){
+@media (max-width: $breakpoint-xl){
     .container2 .wrapper h1{
         font-size: 3rem;
     }
+    .text{
+        display: none;
+    }
+    .logomenue{
+        display: none;
+    }
+    .container .menue li a {
+        display: inline !important;
+        text-decoration: none;
+        color: white;
+    }
+    #cuadropink  .icono {
+        max-width: 3%;
+        margin-top: -165px;
+        padding: 51.5px 6%;
+    }
+    .negro p {
+        font-size: 2em !important;
+    }
+
+        
+    
 }
 
